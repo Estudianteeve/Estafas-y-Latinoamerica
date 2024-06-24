@@ -1,67 +1,130 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Estafas Comunes en Latinoamérica</title>
-    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #50b3a2;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #333 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            float: left;
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        section {
+            padding: 20px;
+            background: #fff;
+            margin: 20px 0;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>Estafas Comunes en Latinoamérica</h1>
-        <nav>
-            <ul>
-                <li><a href="#introduccion">Introducción</a></li>
-                <li><a href="#tipos-estafas">Tipos de Estafas</a></li>
-                <li><a href="#prevencion">Prevención</a></li>
-                <li><a href="#contacto">Contacto</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <div id="branding">
+                <h1>Estafas Comunes en Latinoamérica</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Inicio</a></li>
+                    <li><a href="#types">Tipos de Estafas</a></li>
+                    <li><a href="#tips">Consejos</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <main>
-        <section id="introduccion">
-            <h2>Introducción</h2>
-            <p>En Latinoamérica, las estafas son un problema recurrente que afecta a miles de personas cada año. Conocer las estafas más comunes puede ayudarte a estar preparado y a protegerte mejor.</p>
-        </section>
+    <section id="home">
+        <div class="container">
+            <h2>Bienvenidos</h2>
+            <p>En esta página encontrarás información sobre las estafas más comunes en Latinoamérica y cómo protegerte de ellas.</p>
+        </div>
+    </section>
 
-        <section id="tipos-estafas">
-            <h2>Tipos de Estafas</h2>
-            <article>
-                <h3>Estafas Telefónicas</h3>
-                <p>Las estafas telefónicas implican llamadas de personas que se hacen pasar por representantes de bancos, empresas o incluso familiares en apuros para obtener información personal o dinero.</p>
-            </article>
-            <article>
-                <h3>Estafas en Línea</h3>
-                <p>Las estafas en línea incluyen phishing, correos electrónicos fraudulentos y sitios web falsos diseñados para robar información personal y financiera.</p>
-            </article>
-            <article>
-                <h3>Estafas de Lotería</h3>
-                <p>En estas estafas, los delincuentes informan a las víctimas que han ganado un premio en una lotería y solicitan un pago por adelantado para liberar los fondos del premio.</p>
-            </article>
-            <article>
-                <h3>Estafas de Inversiones</h3>
-                <p>Las estafas de inversiones prometen altos rendimientos con poco o ningún riesgo. Estas estafas a menudo implican esquemas piramidales o Ponzi.</p>
-            </article>
-        </section>
+    <section id="types">
+        <div class="container">
+            <h2>Tipos de Estafas Comunes</h2>
+            <h3>1. Phishing</h3>
+            <p>El phishing es una técnica donde los estafadores envían correos electrónicos que parecen ser de fuentes confiables para robar información personal.</p>
+            <h3>2. Estafas Telefónicas</h3>
+            <p>Las estafas telefónicas incluyen llamadas donde los estafadores se hacen pasar por empleados de empresas o instituciones para obtener datos personales o dinero.</p>
+            <h3>3. Fraude en Compras en Línea</h3>
+            <p>Este tipo de fraude ocurre cuando compras en línea y el producto nunca llega o es diferente a lo descrito.</p>
+            <h3>4. Esquemas de Pirámide</h3>
+            <p>Los esquemas de pirámide prometen grandes ganancias por una inversión inicial, pero en realidad, el dinero se genera solo por reclutar a más personas.</p>
+        </div>
+    </section>
 
-        <section id="prevencion">
-            <h2>Prevención</h2>
-            <p>Para evitar ser víctima de estafas, sigue estos consejos:</p>
+    <section id="tips">
+        <div class="container">
+            <h2>Consejos para Evitar Estafas</h2>
             <ul>
+                <li>No compartas información personal por correo electrónico o teléfono.</li>
+                <li>Verifica la autenticidad de los sitios web antes de realizar compras en línea.</li>
                 <li>Desconfía de ofertas que parecen demasiado buenas para ser verdad.</li>
-                <li>No compartas información personal o financiera por teléfono o internet a menos que estés seguro de la identidad del solicitante.</li>
-                <li>Verifica la autenticidad de las empresas y organizaciones antes de realizar cualquier transacción.</li>
-                <li>Utiliza contraseñas seguras y cambia regularmente tus credenciales de acceso.</li>
+                <li>Investiga antes de participar en esquemas de inversión.</li>
+                <li>Mantén tu software antivirus actualizado.</li>
             </ul>
-        </section>
-    </main>
+        </div>
+    </section>
 
-    <footer id="contacto">
-        <h2>Contacto</h2>
-        <p>Si tienes alguna pregunta o necesitas más información, no dudes en <a href="mailto:contacto@estafaslatam.com">contactarnos</a>.</p>
-        <p>&copy; 2024 Estafas Comunes en Latinoamérica. Todos los derechos reservados.</p>
+    <section id="contact">
+        <div class="container">
+            <h2>Contacto</h2>
+            <p>Si tienes alguna pregunta o deseas reportar una estafa, por favor contáctanos a través de nuestro correo electrónico: <a href="mailto:contacto@estafaslatam.com">contacto@estafaslatam.com</a>.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>Estafas Comunes en Latinoamérica &copy; 2024</p>
     </footer>
 </body>
 </html>
+
